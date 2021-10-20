@@ -17,7 +17,7 @@
   }
 
   a {
-    color: $gray-darker;
+    color: $white;
 
     &:hover {
       color: $brand-primary;
@@ -38,6 +38,7 @@
   .header-nav {
     max-height: 50px;
     border-bottom: $gray-light 2px solid;
+    background: $gray-darker;
 
     #menu-icon {
       margin: 0 1rem;
@@ -103,7 +104,8 @@
       margin-left: 0.9375rem;
       text-align: center;
       white-space: nowrap;
-      background: $gray-light;
+      background: $black;
+      color: $white;
 
       a {
         color: $gray;
