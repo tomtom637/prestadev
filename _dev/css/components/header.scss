@@ -187,6 +187,15 @@
     margin-left: $medium-space;
   }
 
+  .dropdown-item.dropdown-submenu {
+    color: $gray;
+
+    &:hover {
+      color: $brand-primary;
+    }
+  }
+
+
   @include media-breakpoint-down(sm) {
     .top-logo {
       display: flex;
