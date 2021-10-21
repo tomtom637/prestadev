@@ -36,6 +36,7 @@ import './customer';
 import './listing';
 import './product';
 import './cart';
+import './sticky-nav';
 
 import prestashop from 'prestashop';
 import EventEmitter from 'events';
