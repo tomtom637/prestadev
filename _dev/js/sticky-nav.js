@@ -7,10 +7,10 @@ function fixedNav() {
   if (scrollBody > currentNavOffset) {
     nav.classList.add("fixed-nav");
     if(window.getComputedStyle(nav).position === 'fixed') {
-      wrapper.style.paddingTop = nav.offsetHeight + "px";
+      wrapper.style.marginTop = nav.offsetHeight + "px";
     }
   } else {
-    wrapper.style.paddingTop = "0";
+    wrapper.style.marginTop = "0";
     nav.classList.remove("fixed-nav");
     currentNavOffset = nav.offsetTop;
   }
