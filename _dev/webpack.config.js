@@ -82,7 +82,7 @@ if (process.env.NODE_ENV === 'production') {
   config.optimization = {
     minimizer: [
       new UglifyJsPlugin({
-        sourceMap: false,
+        sourceMap: true,
         uglifyOptions: {
           compress: {
             sequences: true,
